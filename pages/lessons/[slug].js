@@ -1,6 +1,6 @@
 // pages/lessons/[slug].js
 import { useRouter } from "next/router";
-import Layout from "../../components/layout";
+import Layout from "../../components/templayout";
 import courseData from "../../data/course.json";
 import fs from "fs";
 import path from "path";
