@@ -1,5 +1,5 @@
 // pages/curriculum.js
-import Layout from "../components/layout";
+import Layout from "../components/templayout";
 import Link from "next/link";
 import courseData from "../data/course.json";
 

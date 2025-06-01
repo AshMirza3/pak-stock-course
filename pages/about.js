@@ -1,5 +1,5 @@
 // pages/about.js
-import Layout from "../components/layout";
+import Layout from "../components/templayout";
 
 export default function About() {
   return (
