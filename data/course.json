@@ -1,0 +1,187 @@
+{
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Introduction to Pakistan’s Stock Market",
+      "lessons": [
+        {
+          "slug": "what-is-stock-market",
+          "title": "What is a Stock Market?",
+          "contentFile": "lesson-1-1.html"
+        },
+        {
+          "slug": "history-of-psx",
+          "title": "History of the Pakistan Stock Exchange (PSX)",
+          "contentFile": "lesson-1-2.html"
+        },
+        {
+          "slug": "key-terminology",
+          "title": "Key Terminology",
+          "contentFile": "lesson-1-3.html"
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Regulatory Environment & Market Participants",
+      "lessons": [
+        {
+          "slug": "role-of-secp",
+          "title": "Role of the SECP",
+          "contentFile": "lesson-2-1.html"
+        },
+        {
+          "slug": "psx-structure-trading-hours",
+          "title": "PSX Structure & Trading Hours",
+          "contentFile": "lesson-2-2.html"
+        },
+        {
+          "slug": "brokerage-houses",
+          "title": "Brokerage Houses & How to Choose One",
+          "contentFile": "lesson-2-3.html"
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Fundamental Analysis Basics",
+      "lessons": [
+        {
+          "slug": "reading-financial-statements",
+          "title": "Reading Financial Statements",
+          "contentFile": "lesson-3-1.html"
+        },
+        {
+          "slug": "key-ratios-metrics",
+          "title": "Key Ratios & Metrics",
+          "contentFile": "lesson-3-2.html"
+        },
+        {
+          "slug": "industry-analysis",
+          "title": "Industry Analysis in Pakistan",
+          "contentFile": "lesson-3-3.html"
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "title": "Technical Analysis Basics",
+      "lessons": [
+        {
+          "slug": "chart-types-patterns",
+          "title": "Chart Types and Patterns",
+          "contentFile": "lesson-4-1.html"
+        },
+        {
+          "slug": "common-indicators",
+          "title": "Common Indicators",
+          "contentFile": "lesson-4-2.html"
+        },
+        {
+          "slug": "technical-on-psx-stocks",
+          "title": "How to Use Technical Analysis on PSX Stocks",
+          "contentFile": "lesson-4-3.html"
+        }
+      ]
+    },
+    {
+      "id": "module-5",
+      "title": "Mutual Funds & Asset Management",
+      "lessons": [
+        {
+          "slug": "what-is-a-mutual-fund",
+          "title": "What Is a Mutual Fund?",
+          "contentFile": "lesson-5-1.html"
+        },
+        {
+          "slug": "top-pakistani-mutual-funds",
+          "title": "Top Pakistani Mutual Fund Houses",
+          "contentFile": "lesson-5-2.html"
+        },
+        {
+          "slug": "lakson-mutual-funds",
+          "title": "Lakson’s Mutual Fund Offerings",
+          "contentFile": "lesson-5-3.html"
+        }
+      ]
+    },
+    {
+      "id": "module-6",
+      "title": "Risk Management & Portfolio Construction",
+      "lessons": [
+        {
+          "slug": "diversification-concepts",
+          "title": "Diversification Concepts",
+          "contentFile": "lesson-6-1.html"
+        },
+        {
+          "slug": "asset-allocation-pakistan",
+          "title": "Asset Allocation for Pakistani Investors",
+          "contentFile": "lesson-6-2.html"
+        },
+        {
+          "slug": "using-sips",
+          "title": "Using SIPs & Systematic Investment Plans",
+          "contentFile": "lesson-6-3.html"
+        },
+        {
+          "slug": "behavioral-finance",
+          "title": "Behavioral Finance & Investor Psychology",
+          "contentFile": "lesson-6-4.html"
+        }
+      ]
+    },
+    {
+      "id": "module-7",
+      "title": "How to Actually Buy & Sell",
+      "lessons": [
+        {
+          "slug": "transaction-flow-psx",
+          "title": "Transaction Flow in PSX",
+          "contentFile": "lesson-7-1.html"
+        },
+        {
+          "slug": "online-trading-platforms",
+          "title": "Using Online Trading Platforms",
+          "contentFile": "lesson-7-2.html"
+        },
+        {
+          "slug": "margin-trading",
+          "title": "Margin Trading & Leverage",
+          "contentFile": "lesson-7-3.html"
+        },
+        {
+          "slug": "taxation-regulatory-filings",
+          "title": "Taxation & Regulatory Filings",
+          "contentFile": "lesson-7-4.html"
+        }
+      ]
+    },
+    {
+      "id": "module-8",
+      "title": "Advanced Topics & Case Studies",
+      "lessons": [
+        {
+          "slug": "ipo-investing",
+          "title": "IPO Investing in Pakistan",
+          "contentFile": "lesson-8-1.html"
+        },
+        {
+          "slug": "venture-capital-pe",
+          "title": "Venture Capital & Private Equity in Pakistan",
+          "contentFile": "lesson-8-2.html"
+        },
+        {
+          "slug": "lakson-fund-case-study",
+          "title": "Real-World Case Study: Lakson Equity Fund Performance",
+          "contentFile": "lesson-8-3.html"
+        },
+        {
+          "slug": "building-watchlist",
+          "title": "Building a Watchlist & Custom Screener (Demo)",
+          "contentFile": "lesson-8-4.html"
+        }
+      ]
+    }
+  ]
+}
