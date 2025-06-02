@@ -1,0 +1,44 @@
+<h2>Building a Watchlist & Custom Screener (Demo)</h2>
+<p>
+  As a frontend-only exercise, let’s create a simple “watchlist” demonstration using static HTML/JavaScript. You can adapt this idea later into a React component.
+</p>
+<p><strong>Watchlist Requirements:</strong>
+  <ul>
+    <li>Allow the user to type a PSX ticker (e.g., <em>HBL</em>, <em>MCB</em>).</li>
+    <li>On press of “Add,” append the ticker to a list below. (In a real app, you’d fetch live prices via an API, but here we use placeholders.)</li>
+    <li>Allow removal of any ticker from the list.</li>
+  </ul>
+</p>
+<p><strong>Static Demo Code (for reference only; not executed here):</strong></p>
+<pre><code>&lt;div&gt;
+  &lt;input id="tickerInput" type="text" placeholder="Enter PSX Ticker (e.g., HBL)" class="border p-2 rounded" /&gt;
+  &lt;button id="addBtn" class="bg-indigo-600 text-white px-4 py-2 rounded ml-2"&gt;Add&lt;/button&gt;
+  &lt;ul id="watchlist" class="mt-4 space-y-2"&gt;&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+  const addBtn = document.getElementById("addBtn");
+  const tickerInput = document.getElementById("tickerInput");
+  const watchlist = document.getElementById("watchlist");
+
+  addBtn.addEventListener("click", () =&gt; {
+    const ticker = tickerInput.value.trim().toUpperCase();
+    if (!ticker) return;
+    const li = document.createElement("li");
+    li.className = "flex justify-between items-center bg-white p-2 rounded shadow";
+    li.innerHTML = `
+      &lt;span class="font-medium"&gt;${ticker}&lt;/span&gt;
+      &lt;button class="text-red-600 removeBtn"&gt;Remove&lt;/button&gt;
+    `;
+    watchlist.appendChild(li);
+    tickerInput.value = "";
+
+    li.querySelector(".removeBtn").addEventListener("click", () =&gt; {
+      li.remove();
+    });
+  });
+&lt;/script&gt;
+</code></pre>
+<p>
+  In a real Next.js site, you’d place this inside a React component, manage state with `useState`, and (optionally) fetch live quotes from an API like Alpha Vantage or PSX’s official feed.
+</p>
